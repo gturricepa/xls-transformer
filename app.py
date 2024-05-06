@@ -17,4 +17,4 @@ def return_user():
 
     return jsonify({"data": "data here"}), 200
 
-app.run(port=5000, host='localhost', debug=True)
+app.run(port=5000, host='0.0.0.0', debug=True)
